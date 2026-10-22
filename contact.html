@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты — Мастерская декора</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Мастерская декора «Текстура»</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="process.html">Как мы работаем</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2 class="section-title">Контакты</h2>
+
+      <div class="contacts-grid" style="display:grid; grid-template-columns: 1fr 1fr; gap:2rem; margin-bottom:2rem;">
+        <div>
+          <h3>Адрес и контакты</h3>
+          <p><strong>Адрес:</strong> г. Москва, ул. Примерная, д. 10, цех 3</p>
+          <p><strong>Телефон:</strong> +7 (999) 000-00-00</p>
+          <p><strong>Email:</strong> hello@texture-decor.ru</p>
+          <p><strong>Мессенджеры:</strong> WhatsApp, Telegram</p>
+        </div>
+        <div>
+          <h3>Режим работы</h3>
+          <p>Пн–Пт: 10:00–19:00<br>Сб: 11:00–17:00<br>Вс: выходной</p>
+        </div>
+      </div>
+
+      <form style="max-width:500px;">
+        <label for="name" style="display:block; margin-bottom:0.3rem;">Ваше имя</label>
+        <input type="text" id="name" name="name" style="width:100%; margin-bottom:1rem; padding:0.4rem;">
+
+        <label for="phone" style="display:block; margin-bottom:0.3rem;">Телефон</label>
+        <input type="tel" id="phone" name="phone" style="width:100%; margin-bottom:1rem; padding:0.4rem;">
+
+        <label for="message" style="display:block; margin-bottom:0.3rem;">Сообщение</label>
+        <textarea id="message" name="message" rows="5" style="width:100%; margin-bottom:1rem; padding:0.4rem;"></textarea>
+
+        <button type="submit" style="padding:0.6rem 1.2rem; cursor:pointer;">Отправить заявку</button>
+      </form>
+      <p style="font-size:0.85rem; color:#777;"><em>Форма пока не отправляет данные — это макет. Для реальной отправки нужен серверный скрипт или сервис форм.</em></p>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Мастерская декора «Текстура». Все права
